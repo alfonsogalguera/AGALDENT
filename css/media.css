@@ -168,7 +168,7 @@
     
     
     .logo{
-        height: 50px;
+        height: 35px;
         margin-left: 0%;
     }
     
@@ -189,7 +189,7 @@
         text-decoration: none;
         padding: 0px;
         font-weight: 500;
-        font-size: 20px;
+        font-size: 18px;
         transition: all 500ms ease;
         border-bottom: 4px solid transparent;
     }
@@ -199,6 +199,7 @@
     }
 
     .main-container{
+        height:57vh;
         position:relative;
         flex-direction: column;
         align-items: center;
@@ -262,6 +263,15 @@
     }
 }
 @media only screen and (max-width: 375px) {
+    .logo{
+        height: 35px;
+        margin-left: 0%;
+    }
+    .menu a{
+        
+    font-size: 17px;
+    }
+    
     .container{
         display: flex;
         flex-direction: column;
